@@ -1,12 +1,3 @@
-public int celsiusToFahrenheit(int a){
-  return (((a * 9)/5) + 32);
-}
-
-public int fahrenheitToCelsius(int b){
-  return (((a - 32) * 5) / 9);
-}
-
-
 public class CtoFTester {
   public static void main(String[] args ) {
     if (celsiusToFahrenheit(-10) == 14){
@@ -16,4 +7,12 @@ public class CtoFTester {
       }
     }
   }
+}
+
+public int celsiusToFahrenheit(int a){
+  return (((a * 9)/5) + 32);
+}
+
+public int fahrenheitToCelsius(int b){
+  return (((a - 32) * 5) / 9);
 }
