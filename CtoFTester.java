@@ -1,5 +1,12 @@
 public class CtoFTester {
   public static void main(String[] args ) {
+    public int celsiusToFahrenheit(int a){
+      return (((a * 9)/5) + 32);
+    }
+
+    public int fahrenheitToCelsius(int b){
+      return (((a - 32) * 5) / 9);
+    }
     if (celsiusToFahrenheit(-10) == 14){
       if (fahrenheitToCelsius(14) == -10){
         System.out.println("-10 degrees celsius is equal to 14 degrees fahrenheit");
@@ -7,12 +14,4 @@ public class CtoFTester {
       }
     }
   }
-}
-
-public int celsiusToFahrenheit(int a){
-  return (((a * 9)/5) + 32);
-}
-
-public int fahrenheitToCelsius(int b){
-  return (((a - 32) * 5) / 9);
 }
