@@ -11,8 +11,8 @@ public class CtoFTester {
   public static void main(String[] args ) {
     if (celsiusToFahrenheit(-10) == 14){
       if (fahrenheitToCelsius(14) == -10){
-        System.out.println("-10 degrees celsius is equal to 14 degrees fahrenheit")
-        System.out,println("14 degrees fahrenheit is equal to -10 degress celsius")
+        System.out.println("-10 degrees celsius is equal to 14 degrees fahrenheit");
+        System.out.println("14 degrees fahrenheit is equal to -10 degress celsius");
       }
     }
   }
